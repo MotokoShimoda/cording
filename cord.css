@@ -4,27 +4,31 @@ li {
 
 header {
   height: 40px;
+  background-color: #fff;
 }
 
 .button {
   text-align: right;
 }
 
-a {
-  text-align: right;
-}
 .contact {
-  display: block;
+  float: right;
   font-size: 17px;
-  color: white;
-  border: 1px solid #89c1ff;
+  color: #fff;
+  border: 1px solid #6ba7eb;
   width: 80px;
   height: 20px;
   padding-top: 5px;
   padding-bottom: 10px;
-  background-color: #89c1ff;
+  background-color: #6ba7eb;
   text-decoration: none;
   text-align: center;
+}
+
+.fas {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #777;
 }
 
 .contact:hover {
@@ -33,64 +37,79 @@ a {
 }
 
 h1 {
-  font-size: 60px;
-  color: #93c9ff;
+  font-size: 65px;
+  font-weight: 700;
+  color: #6ba7eb;
   text-align: center;
-  padding-top: 150px;
+  padding-top: 400px;
+  margin-bottom: 30px;
 }
 
 .keyvisual h2 {
   font-size: 40px;
-  color: white;
+  font-weight: 700;
+  color: #fff;
   text-align: center;
+  padding-bottom: 400px;
 }
 
 .keyvisual {
-  height: 600px;
   background-image: url(https://github.com/FullStackTeacher/lp-practice/blob/main/images/keyvisual/keyvisual.jpg?raw=true);
 }
 
 .news {
-  background-color: #d6eaff;
+  background-color: #e3f2fd;
   height: 200px;
   display: flex;
 }
 
 .news img {
-  padding-top: 20px;
+  width: 250px;
+  padding-top: 50px;
   padding-left: 120px;
 }
 
 .news h2 {
-  font-size: 35px;
-  letter-spacing: 5px;
+  font-size: 40px;
+  letter-spacing: 10px;
   text-align: center;
 }
+
 .news p {
-  font-size: 17px;
+  font-size: 15px;
   text-align: center;
+  line-height: 18px;
+  word-break: break-all;
 }
 
 .skills {
-  background-color: #ffffea;
+  background-color: #fff;
+  padding-top: 50px;
 }
 
 .skills h2 {
-  font-size: 35px;
-  letter-spacing: 5px;
+  font-size: 40px;
+  letter-spacing: 10px;
   text-align: center;
   padding-top: 40px;
 }
 
 .skills img {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   opacity: 0.7;
   margin: 30px;
 }
 
+ul {
+  display: grid;
+  width: 1100px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .images {
   justify-content: space-around;
+  margin: 0 auto;
 }
 
 .skills img:hover {
@@ -98,32 +117,89 @@ h1 {
 }
 
 .plan {
-  background-color: #e5e5ff;
+  background-color: #d0dfea;
 }
 
 .plan h2 {
-  font-size: 35px;
-  letter-spacing: 5px;
+  font-size: 40px;
+  letter-spacing: 10px;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 50px;
+}
+
+table {
+  margin: 0 auto;
+  padding-bottom: 50px;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #6ba7eb;
+}
+
+th,
+td {
+  font-size: 16px;
+  line-height: 26px;
+  height: 50px;
+  width: 250px;
+
+  border: 2px solid #fff;
+}
+
+td {
+  text-align: center;
+}
+
+th {
+  font-weight: bold;
+}
+
+.price,
+.analysis,
+.design {
+  background-color: #f9f9f9;
+}
+
+.delivery,
+.improvement {
+  background-color: #e0efff;
 }
 
 .sns {
-  background-color: #ffefff;
+  background-color: #e3f2fd;
+  padding: 200px 0;
+  text-align: center;
 }
 
-.fab {
-  color: #191970;
+.fab,
+.far {
+  color: #8c8c8c;
+  width: 185px;
+  overflow: hidden;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fab:hover {
+  transition: all 0.5s;
+  background-color: #fff;
+}
+
+.far:hover {
+  transition: all 0.5s;
+  background-color: #fff;
 }
 
 footer {
-  background-color: #d6eaff;
+  background-color: #cfd8dc;
   height: 35px;
+  padding: 25px 0;
 }
 
 footer p {
-  font-size: 10px;
+  font-size: 13px;
+  letter-spacing: 0.5px;
   text-align: right;
-  padding-top: 10px;
-  padding-right: 20px;
 }
