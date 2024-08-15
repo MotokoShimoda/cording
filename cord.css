@@ -1,14 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 li {
   list-style: none;
 }
 
 header {
-  height: 40px;
+  height: 80px;
   background-color: #fff;
 }
 
-.button {
+.inner {
+  width: 1170px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.a {
   text-align: right;
+  padding: 30px;
 }
 
 .contact {
@@ -64,9 +76,9 @@ h1 {
 }
 
 .news img {
-  width: 250px;
-  padding-top: 50px;
-  padding-left: 120px;
+  width: 200px;
+  height: 180px;
+  padding-top: 10px;
 }
 
 .news h2 {
@@ -118,6 +130,7 @@ ul {
 
 .plan {
   background-color: #d0dfea;
+  padding-bottom: 50px;
 }
 
 .plan h2 {
@@ -129,7 +142,6 @@ ul {
 
 table {
   margin: 0 auto;
-  padding-bottom: 50px;
   border-collapse: collapse;
 }
 
