@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  height: 80px;
+  background-color: #fff;
+}
+
+.inner {
+  width: 1170px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.a {
+  text-align: right;
+  padding: 30px;
+}
+
+.contact {
+  float: right;
+  font-size: 17px;
+  color: #fff;
+  border: 1px solid #6ba7eb;
+  width: 80px;
+  height: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background-color: #6ba7eb;
+  text-decoration: none;
+  text-align: center;
+}
+
+.fas {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #777;
+}
+
+.contact:hover {
+  transition: all 0.3s;
+  color: #333;
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: 700;
+  color: #6ba7eb;
+  text-align: center;
+  padding-top: 400px;
+  margin-bottom: 30px;
+}
+
+.keyvisual h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 400px;
+}
+
+.keyvisual {
+  background-image: url(https://github.com/FullStackTeacher/lp-practice/blob/main/images/keyvisual/keyvisual.jpg?raw=true);
+}
+
+.news {
+  background-color: #e3f2fd;
+  height: 200px;
+  display: flex;
+}
+
+.news img {
+  width: 200px;
+  height: 180px;
+  padding-top: 10px;
+}
+
+.news h2 {
+  font-size: 40px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.news p {
+  font-size: 15px;
+  text-align: center;
+  line-height: 18px;
+  word-break: break-all;
+}
+
+.skills {
+  background-color: #fff;
+  padding-top: 50px;
+}
+
+.skills h2 {
+  font-size: 40px;
+  letter-spacing: 10px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.skills img {
+  width: 300px;
+  height: 300px;
+  opacity: 0.7;
+  margin: 30px;
+}
+
+ul {
+  display: grid;
+  width: 1100px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.images {
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.skills img:hover {
+  opacity: 1;
+}
+
+.plan {
+  background-color: #d0dfea;
+  padding-bottom: 50px;
+}
+
+.plan h2 {
+  font-size: 40px;
+  letter-spacing: 10px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #6ba7eb;
+}
+
+th,
+td {
+  font-size: 16px;
+  line-height: 26px;
+  height: 50px;
+  width: 250px;
+
+  border: 2px solid #fff;
+}
+
+td {
+  text-align: center;
+}
+
+th {
+  font-weight: bold;
+}
+
+.price,
+.analysis,
+.design {
+  background-color: #f9f9f9;
+}
+
+.delivery,
+.improvement {
+  background-color: #e0efff;
+}
+
+.sns {
+  background-color: #e3f2fd;
+  padding: 200px 0;
+  text-align: center;
+}
+
+.fab,
+.far {
+  color: #8c8c8c;
+  width: 185px;
+  overflow: hidden;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fab:hover {
+  transition: all 0.5s;
+  background-color: #fff;
+}
+
+.far:hover {
+  transition: all 0.5s;
+  background-color: #fff;
+}
+
+footer {
+  background-color: #cfd8dc;
+  height: 35px;
+  padding: 25px 0;
+}
+
+footer p {
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-align: right;
+  padding-right: 10px;
+}
